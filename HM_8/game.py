@@ -18,7 +18,7 @@ def create_battle_field(size): # Создает поле для игры, раз
         return field
 
 
-def shooting(field, cell, symbol): # Ставит крестик или нолик на поле
+def shooting(field, cell, symbol): # Ставит крестик или нолик на поле!
 
 
         dy = cell//10 + 1
